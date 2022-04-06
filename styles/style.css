@@ -2,30 +2,68 @@
 body{
     margin: 0;
     text-align: center;
-    font-family: 'Share Tech Mono', monospace;  
+    font-family: 'Share Tech Mono', monospace; 
+     background-color: aquamarine; 
+}
+
+.wrap{
+    margin: auto;
+    width: 80%;
+   
 }
 
 .intro{
     background-color: #24A19C;
+   padding: 20px;
     
 }
+.intro h1, h2{
+   margin: 0;
+    
+}
+
 
 .presentation {
     background-color: #FAEEE7;
-}
-
-.presentation img {
-    width: 20%;
-    border-radius: 50%;
     
 }
 
-.skills h2:hover {
+.image-profile {
+    width: 20%;
+    border-radius: 50%;
+    padding: 10px;
+    
+}
+
+.name{
+    width: 10%;
+}
+
+.presentation p{
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.sk{
+    background-color: white;
+}
+.sk h2:hover {
     color: #24A19C;
+
+}
+.linea{
+    background-color: rgb(255, 255, 255);
+    padding: 1px;
 }
 
 hr{
     border: dotted #a5acac 6px;
     border-bottom: none;
     width: 4%; 
+    
+   
+}
+
+.skills{
+    list-style-type: none;
 }
